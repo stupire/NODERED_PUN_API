@@ -1,0 +1,12 @@
+{
+    "name": "nodered_linux-01_libreria_PUN-API",
+    "description": "Librearia per scaricare mediante richieste API i dati PUC del GME",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows.json",
+            "credentialsFile": "flows_cred.json"
+        }
+    }
+}

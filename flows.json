@@ -1,0 +1,1168 @@
+[
+    {
+        "id": "f6f2187d.f17ca8",
+        "type": "tab",
+        "label": "main",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "c1ef9ea0d4b85310",
+        "type": "tab",
+        "label": "PUN API STUPIRE",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a894e0685c489fa2",
+        "type": "ui-base",
+        "name": "Prova Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control",
+            "ui-form",
+            "ui-text-input",
+            "ui-progress",
+            "ui-button",
+            "ui-table",
+            "ui-switch",
+            "ui-radio-group",
+            "ui-dropdown",
+            "ui-button-group",
+            "ui-number-input",
+            "ui-file-input",
+            "ui-text",
+            "ui-gauge",
+            "ui-audio",
+            "ui-markdown",
+            "ui-template",
+            "ui-slider",
+            "ui-chart"
+        ],
+        "showPathInSidebar": true,
+        "headerContent": "dashpage",
+        "navigationStyle": "fixed",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": true
+    },
+    {
+        "id": "6f5995921a85442d",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094CE",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "3df2eba42027c3c1",
+        "type": "ui-spacer",
+        "group": "",
+        "name": "spacer",
+        "tooltip": "",
+        "order": 1,
+        "width": 1,
+        "height": 1,
+        "className": ""
+    },
+    {
+        "id": "f0866f93839c441b",
+        "type": "ui-theme",
+        "name": "Default",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px",
+            "density": "default"
+        }
+    },
+    {
+        "id": "506a5558b3e65635",
+        "type": "ui-theme",
+        "name": "Basic Blue Theme",
+        "colors": {
+            "surface": "#4d58ff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "5b98b37fd277b5a0",
+        "type": "MySQLdatabase",
+        "name": "ENERGIA_DB",
+        "host": "209.227.237.29",
+        "port": "3307",
+        "db": "energia",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "553e74ad136b4f3a",
+        "type": "ui-page",
+        "name": "PUN-API",
+        "ui": "a894e0685c489fa2",
+        "path": "/PUN-API",
+        "icon": "home",
+        "layout": "tabs",
+        "theme": "6f5995921a85442d",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "cd9e626a6fa5a961",
+        "type": "ui-group",
+        "name": "Impostazioni",
+        "page": "553e74ad136b4f3a",
+        "width": 6,
+        "height": 1,
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "2ed95c37e655b456",
+        "type": "ui-group",
+        "name": "Dati Storici 15 minuti",
+        "page": "553e74ad136b4f3a",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "057351f7947a61d4",
+        "type": "ui-theme",
+        "name": "Custom Theme",
+        "colors": {
+            "surface": "#000000",
+            "primary": "#ff4000",
+            "bgPage": "#f0f0f0",
+            "groupBg": "#ffffff",
+            "groupOutline": "#d9d9d9"
+        },
+        "sizes": {
+            "pagePadding": "24px",
+            "groupGap": "12px",
+            "groupBorderRadius": "9px",
+            "widgetGap": "6px",
+            "density": "default"
+        }
+    },
+    {
+        "id": "c9943ce4b6e834b6",
+        "type": "ui-group",
+        "name": "Dati Storici 60 minuti",
+        "page": "553e74ad136b4f3a",
+        "width": 6,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "204a1977c048ac32",
+        "type": "http request",
+        "z": "c1ef9ea0d4b85310",
+        "name": "POST Auth",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://api.mercatoelettrico.org/request/api/v1/Auth",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "Content-Type",
+                "keyValue": "",
+                "valueType": "other",
+                "valueValue": "application/json"
+            }
+        ],
+        "x": 470,
+        "y": 340,
+        "wires": [
+            [
+                "9f63cd1d60f42c8b"
+            ]
+        ]
+    },
+    {
+        "id": "2d50c77151360ae9",
+        "type": "inject",
+        "z": "c1ef9ea0d4b85310",
+        "name": "Credenziali",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"login\":\"stupiresrl1118\", \"password\":\"PW_Inserita_il_2025-11-05\"}",
+        "payloadType": "str",
+        "x": 120,
+        "y": 340,
+        "wires": [
+            [
+                "204a1977c048ac32"
+            ]
+        ]
+    },
+    {
+        "id": "f559c101a072f835",
+        "type": "debug",
+        "z": "c1ef9ea0d4b85310",
+        "name": "STATO AUTENTICAZIONE LOG",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "9f63cd1d60f42c8b",
+        "type": "function",
+        "z": "c1ef9ea0d4b85310",
+        "name": "Elaborazione Auth",
+        "func": "let payload = JSON.parse(msg.payload);\n\n//msg={};\n\nmsg.esito_auth = payload.success;\nmsg.token_auth = payload.token;\n\nreturn msg;\n\n\n/*\n{ \"success\": true, \"token\": \"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjExMTgiLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjpbImh0dHA6Ly9sb2NhbGhvc3QiLCJodHRwOi8vbG9jYWxob3N0Il0sImlhdCI6MTc2MjM2NDA0NCwic3ViIjoiR01FIiwiZXhwIjoxNzYyMzY0MzQ0LCJqdGkiOiIyNTViNjExYy01NDJlLTQzZDMtODk0Zi01NmU3MGIzMzM0ZTYiLCJRdW90YUlkIjoiMiIsIkN1c3RvbWVySWQiOiIxMTMwIiwiUGxhZm9ybXMiOiJQdWJsaWNNYXJrZXRSZXN1bHRzIiwibmJmIjoxNzYyMzY0MDQ0fQ.iXZneCVAE-Kyq03so5Qw1TPjaHcT0_tDm1IuXTCVe5rK4Qii2PUBh56SWqDFle45H5id4TTZwSPoe-WXtR_PzQ\", \"reason\": null }\n*/",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 340,
+        "wires": [
+            [
+                "f559c101a072f835",
+                "0e11924d557a93c6",
+                "321a6ce3d21429bd"
+            ]
+        ]
+    },
+    {
+        "id": "321a6ce3d21429bd",
+        "type": "function",
+        "z": "c1ef9ea0d4b85310",
+        "name": "Quote Utilizzo del Servizio",
+        "func": "\nlet token=msg.token_auth;\n\n\nmsg.headers = JSON.parse(`{\"Content-Type\":\"application/json\", \"Authorization\" : \"Bearer ${token}\"}`);\n\n\nmsg.payload={};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 1000,
+        "wires": [
+            [
+                "71b6ccb53a1ef101"
+            ]
+        ]
+    },
+    {
+        "id": "71b6ccb53a1ef101",
+        "type": "http request",
+        "z": "c1ef9ea0d4b85310",
+        "name": "GET GetMyQuotas",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "query",
+        "url": "https://api.mercatoelettrico.org/request/api/v1/GetMyQuotas",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 510,
+        "y": 1000,
+        "wires": [
+            [
+                "475cb6b1cab53761"
+            ]
+        ]
+    },
+    {
+        "id": "0bc8d61e3f74a7dd",
+        "type": "debug",
+        "z": "c1ef9ea0d4b85310",
+        "name": "STAT USO SERVIZIO",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "475cb6b1cab53761",
+        "type": "function",
+        "z": "c1ef9ea0d4b85310",
+        "name": "Elaborazione Quote Uso Servizio",
+        "func": "msg.quote_utilizzo = JSON.parse(msg.payload);;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 1000,
+        "wires": [
+            [
+                "0bc8d61e3f74a7dd"
+            ]
+        ]
+    },
+    {
+        "id": "0e11924d557a93c6",
+        "type": "function",
+        "z": "c1ef9ea0d4b85310",
+        "name": "Richiesta dei dati al GME",
+        "func": "\nlet token=msg.token_auth;\n\n\nmsg.headers = JSON.parse(`{\"Content-Type\":\"application/json\", \"Authorization\" : \"Bearer ${token}\"}`);\n\n//attenzione. andando indietro nel tempo i dati al 15min possono non esserci e \n//vengono forniti direttamente i dati orari\n//questo viene indicato con il campo Period=0\n\nconst start = msg.intervalli.start;\nconst end = msg.intervalli.end;\nmsg.payload={\n    \"platform\": \"PublicMarketResults\", \n    \"segment\": \"MGP\", \n    \"dataName\": \"ME_ZonalPrices\", \n    \"intervalStart\": start, \n    \"intervalEnd\": end,\n    \"attributes\": {\"GranularityTypes\" : \"PT15\"}};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 220,
+        "y": 449,
+        "wires": [
+            [
+                "192c31f96bee2fce"
+            ]
+        ]
+    },
+    {
+        "id": "192c31f96bee2fce",
+        "type": "http request",
+        "z": "c1ef9ea0d4b85310",
+        "name": "POST RequestData",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://api.mercatoelettrico.org/request/api/v1/RequestData",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "Content-Type",
+                "keyValue": "",
+                "valueType": "other",
+                "valueValue": "application/json"
+            }
+        ],
+        "x": 480,
+        "y": 449,
+        "wires": [
+            [
+                "80fd597cc5588ffc",
+                "7fd13927531a94dd",
+                "6d33d61b94a80834"
+            ]
+        ]
+    },
+    {
+        "id": "80fd597cc5588ffc",
+        "type": "debug",
+        "z": "c1ef9ea0d4b85310",
+        "name": "debug 102",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1010,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "7fd13927531a94dd",
+        "type": "file",
+        "z": "c1ef9ea0d4b85310",
+        "d": true,
+        "name": "",
+        "filename": "C:\\Users\\GT STUPIRE\\Desktop\\GME\\payload.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1090,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6d33d61b94a80834",
+        "type": "function",
+        "z": "c1ef9ea0d4b85310",
+        "name": "Base64 → Buffer",
+        "func": "// Estrai il campo base64 dal payload\nconst jsonpayload = JSON.parse(msg.payload);\nconst b64 = jsonpayload.contentResponse;\n\nif (!b64) {\n    node.error(`contentResponse: null! resultRequest: ${jsonpayload.resultRequest}`);\n    return null;\n}\n\n// Decodifica base64 in buffer\nmsg.payload = Buffer.from(b64, 'base64');\nmsg.filename = \"data.zip\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 609,
+        "wires": [
+            [
+                "1912248b43eeef2e",
+                "37f7da7883b03274"
+            ]
+        ]
+    },
+    {
+        "id": "574ed788b61de56b",
+        "type": "function",
+        "z": "c1ef9ea0d4b85310",
+        "name": "Parse JSON file",
+        "func": "if (msg.payload[0].filename && msg.payload[0].filename.endsWith('.json')) {\n    try {\n        msg.payload = JSON.parse(msg.payload[0].payload);\n    } catch(err) {\n        node.error('Errore nel parsing JSON: ' + err);\n        return null;\n    }\n    return msg;\n}\nreturn null;\n\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 609,
+        "wires": [
+            [
+                "73a3aeb475a63e3e",
+                "77a719604e80387e"
+            ]
+        ]
+    },
+    {
+        "id": "77a719604e80387e",
+        "type": "debug",
+        "z": "c1ef9ea0d4b85310",
+        "name": "Contenuto JSON estratto",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1150,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "37f7da7883b03274",
+        "type": "debug",
+        "z": "c1ef9ea0d4b85310",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "a0c254e526f07fbc",
+        "type": "debug",
+        "z": "c1ef9ea0d4b85310",
+        "name": "debug 2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "73a3aeb475a63e3e",
+        "type": "function",
+        "z": "c1ef9ea0d4b85310",
+        "name": "FILTRO SOLO LA ZONA PUN",
+        "func": "\n/*\nfor (let index = 0; index < msg.payload.length; index++) {\n    const zone = msg.payload[index].Zone;\n\n    if( zone.includes(\"PUN\") || zone.includes(\"pun\"))\n    {\n        //node.warn(\"PUN: \" + index.toString());\n    }\n    \n}\n*/\n// Filtra l'array mantenendo solo gli oggetti con Zone = \"PUN\"\nmsg.payload = msg.payload.filter(item => item.Zone === \"PUN\");\n//del PUN filtriamo quelle al quarto d'ora\nmsg.payload15 = msg.payload.filter(item => item.Period !== \"0\");\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 880,
+        "wires": [
+            [
+                "87dec01525aae608",
+                "f81419fe1e958d79",
+                "de5a1151c2d34bc3"
+            ]
+        ]
+    },
+    {
+        "id": "87dec01525aae608",
+        "type": "debug",
+        "z": "c1ef9ea0d4b85310",
+        "name": "PUN 15min",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "8e2b4a9cf8f9c281",
+        "type": "function",
+        "z": "c1ef9ea0d4b85310",
+        "name": "Select ultimi dati caricati",
+        "func": "/*\nlet query;\nquery =`SELECT  id, \n                DATE_FORMAT(DATA, '%Y%m%d') ultima_data_ins,\n                DATE_FORMAT(now(), '%Y%m%d') oggi,\n                DATE_FORMAT(DATE_ADD(now(), INTERVAL 1 DAY), '%Y%m%d') domani, \n                PERIODO ultimo_periodo_ins\n                FROM mgpprezzi_15 \n                ORDER BY DATA desc, PERIODO desc limit 1`;\n\nmsg.topic=query;\n*/\n\n//QUESTA GARANTISCE CHE LE colonne oggi e domani siano restituite \n//correttamente anche se la tabella è vuota\nlet query;\nquery =`SELECT\n    t.id,\n    DATE_FORMAT(t.DATA, '%Y%m%d') AS ultima_data_ins,\n    DATE_FORMAT(CURDATE(), '%Y%m%d') AS oggi,\n    DATE_FORMAT(DATE_ADD(CURDATE(), INTERVAL 1 DAY), '%Y%m%d') AS domani,\n    t.PERIODO AS ultimo_periodo_ins\nFROM (\n    SELECT 1 AS dummy\n) d\nLEFT JOIN mgpprezzi_15 t\n    ON 1 = 1\nORDER BY t.DATA DESC, t.PERIODO DESC\nLIMIT 1;`;\n\nmsg.topic=query;\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 140,
+        "wires": [
+            [
+                "b43c9bb2fcb2a5e6"
+            ]
+        ]
+    },
+    {
+        "id": "54a4a2c18ddeaa79",
+        "type": "inject",
+        "z": "c1ef9ea0d4b85310",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "7200",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 180,
+        "wires": [
+            [
+                "8e2b4a9cf8f9c281"
+            ]
+        ]
+    },
+    {
+        "id": "1912248b43eeef2e",
+        "type": "zip",
+        "z": "c1ef9ea0d4b85310",
+        "name": "",
+        "mode": "decompress",
+        "filename": "",
+        "compressionlevel": 6,
+        "outasstring": false,
+        "x": 660,
+        "y": 609,
+        "wires": [
+            [
+                "574ed788b61de56b",
+                "a0c254e526f07fbc"
+            ]
+        ]
+    },
+    {
+        "id": "f81419fe1e958d79",
+        "type": "function",
+        "z": "c1ef9ea0d4b85310",
+        "name": "Aggrega PUN 15min in 1h",
+        "func": "const data = msg.payload;\n\nconst aggregated = Object.values(\n  data.reduce((acc, item) => {\n    const key = `${item.FlowDate}_${item.Hour}`;\n    const price = parseFloat(item.Price);\n\n    if (!acc[key]) {\n      acc[key] = {\n        FlowDate: item.FlowDate,\n        Hour: item.Hour,\n        sum: 0,\n        count: 0\n      };\n    }\n\n    acc[key].sum += price;\n    acc[key].count += 1;\n\n    return acc;\n  }, {})\n).map(item => ({\n  FlowDate: item.FlowDate,\n  Hour: item.Hour,\n  AvgPrice: Number((item.sum / item.count).toFixed(2))\n}));\n\nmsg.payload = aggregated;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 810,
+        "y": 880,
+        "wires": [
+            [
+                "89e117613044117c",
+                "88800a1b1c36fecd"
+            ]
+        ]
+    },
+    {
+        "id": "89e117613044117c",
+        "type": "debug",
+        "z": "c1ef9ea0d4b85310",
+        "name": "PUN Aggregato 1h",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 990,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "88800a1b1c36fecd",
+        "type": "function",
+        "z": "c1ef9ea0d4b85310",
+        "name": "Preparazione QUERY INSERT PUN 1h",
+        "func": "// Creiamo un array di query separate\nlet inserts = [];\n\nmsg.payload.forEach(r => {\n    inserts.push({\n        topic: \"INSERT IGNORE INTO mgpprezzi (DATA, ORA, PUN, MERCATO) VALUES (?, ?, ?,?)\",\n        payload: [\n            r.FlowDate,\n            Number(r.Hour),\n            r.AvgPrice,\n            \"MGP\"\n        ]\n    });\n});\n\n// Inviamo l'array di insert al nodo mysql\nreturn [inserts];\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1180,
+        "y": 880,
+        "wires": [
+            [
+                "29695c39488f6fc9"
+            ]
+        ]
+    },
+    {
+        "id": "de5a1151c2d34bc3",
+        "type": "function",
+        "z": "c1ef9ea0d4b85310",
+        "name": "Preparazione QUERY INSERT PUN 15min",
+        "func": "// Creiamo un array di query separate\nlet inserts = [];\n\nif (msg.payload15 === null || msg.payload15 === undefined || (Array.isArray(msg.payload15) && msg.payload15.length === 0))\n{\n    return null;\n}\nmsg.payload15.forEach(r => {\n    inserts.push({\n        topic: \"INSERT IGNORE INTO mgpprezzi_15 (DATA, MERCATO, ZONA, ORA, PERIODO, PREZZO) VALUES (?, ?, ?, ?, ?, ?)\",\n        payload: [\n            r.FlowDate,\n            r.Market,\n            r.Zone,\n            Number(r.Hour),\n            r.Period,\n            r.Price\n        ]\n    });\n});\n\n// Inviamo l'array di insert al nodo mysql\nreturn [inserts];\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 870,
+        "y": 940,
+        "wires": [
+            [
+                "29695c39488f6fc9"
+            ]
+        ]
+    },
+    {
+        "id": "29695c39488f6fc9",
+        "type": "mysql",
+        "z": "c1ef9ea0d4b85310",
+        "mydb": "5b98b37fd277b5a0",
+        "name": "ENERGIA_DB",
+        "x": 1440,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b43c9bb2fcb2a5e6",
+        "type": "mysql",
+        "z": "c1ef9ea0d4b85310",
+        "mydb": "5b98b37fd277b5a0",
+        "name": "ENERGIA_DB",
+        "x": 640,
+        "y": 140,
+        "wires": [
+            [
+                "bf6a99e3131d35a0",
+                "5c48bf244309627e"
+            ]
+        ]
+    },
+    {
+        "id": "bf6a99e3131d35a0",
+        "type": "debug",
+        "z": "c1ef9ea0d4b85310",
+        "name": "ULTIMI DATI NEL DB LOG",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "5c48bf244309627e",
+        "type": "function",
+        "z": "c1ef9ea0d4b85310",
+        "name": "Calcolo date di inizio e fine per richiesta API",
+        "func": "if (!Array.isArray(msg.payload))\n{\n    return null;\n}\nif (msg.payload.length != 1)\n{\n    //la query grantisce che ritornino sempre le colenne \"oggi\" e \"domani\" anche se la tabella è vuota.\n    //quindi la lunghezza del array deve essere sempre 1\n    return null;\n}\n\nfunction parseYYYYMMDD(str) {\n  const year = parseInt(str.slice(0, 4), 10);\n  const month = parseInt(str.slice(4, 6), 10) - 1; // mesi 0-based\n  const day = parseInt(str.slice(6, 8), 10);\n  return new Date(year, month, day);\n}\nfunction formatYYYYMMDD_UTC(date){\n    const y = date.getUTCFullYear();\n    const m = String(date.getUTCMonth() + 1).padStart(2, \"0\");\n    const d = String(date.getUTCDate()).padStart(2, \"0\");\n    return `${y}${m}${d}`;\n}\n\n\nconst MAX_GIORNI_INDIETRO = 10;\n//const oggi = msg.payload[0].oggi;\nconst domani = msg.payload[0].domani;\nconst d2 = parseYYYYMMDD(domani);\n// sottraggo 30 giorni a d2 = domani\nconst d2Minus30 = new Date(d2.getTime());\nd2Minus30.setDate(d2Minus30.getDate() - MAX_GIORNI_INDIETRO);\n\nlet ultima_data_ins;\nif(msg.payload[0].ultima_data_ins === null)\n{\n    ultima_data_ins = formatYYYYMMDD_UTC(d2Minus30);\n}\nelse\n{\n    ultima_data_ins = msg.payload[0].ultima_data_ins;\n}\n\nconst d1 = parseYYYYMMDD(ultima_data_ins);\n\n// differenza in giorni\nconst diffMs = d2.getTime() - d1.getTime();\nconst diffDays = Math.round(diffMs / (1000 * 60 * 60 * 24));\n\nlet start = ultima_data_ins;\n//se la differenza è maggiore di 30 giorni scarico solo gli ultimi 30giorni indietro partendo da domani\nif (diffDays > MAX_GIORNI_INDIETRO)\n{ \n    start = formatYYYYMMDD_UTC(d2Minus30);\n}\n\nmsg.payload={};\nmsg.intervalli = { \"start\": start, \"end\": domani }\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 260,
+        "wires": [
+            [
+                "0807fee87575ee44"
+            ]
+        ]
+    },
+    {
+        "id": "0807fee87575ee44",
+        "type": "function",
+        "z": "c1ef9ea0d4b85310",
+        "name": "SETTO LE CREDENZIALI PER LE API",
+        "func": "msg.payload= {\"login\":\"stupiresrl1118\", \"password\":\"PW_Inserita_il_2025-11-05\"};\nmsg.topic={};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 260,
+        "wires": [
+            [
+                "204a1977c048ac32"
+            ]
+        ]
+    },
+    {
+        "id": "73b6883b26326a40",
+        "type": "ui-button",
+        "z": "c1ef9ea0d4b85310",
+        "group": "cd9e626a6fa5a961",
+        "name": "Scarica nuovi dati",
+        "label": "Scarica nuovi dati",
+        "order": 1,
+        "width": "3",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 110,
+        "y": 120,
+        "wires": [
+            [
+                "8e2b4a9cf8f9c281"
+            ]
+        ]
+    },
+    {
+        "id": "d5347116f37c84c0",
+        "type": "ui-button",
+        "z": "c1ef9ea0d4b85310",
+        "group": "2ed95c37e655b456",
+        "name": "Carica Dati 15m",
+        "label": "Visualizza Dati",
+        "order": 1,
+        "width": "2",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 240,
+        "y": 1120,
+        "wires": [
+            [
+                "1007d0df391be36f"
+            ]
+        ]
+    },
+    {
+        "id": "f369695631e9b46e",
+        "type": "ui-table",
+        "z": "c1ef9ea0d4b85310",
+        "group": "2ed95c37e655b456",
+        "name": "Table 15m",
+        "label": "",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "maxrows": "20",
+        "passthru": false,
+        "autocols": true,
+        "showSearch": false,
+        "deselect": true,
+        "selectionType": "none",
+        "columns": [],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "className": "",
+        "x": 1110,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4dddab2428e05893",
+        "type": "mysql",
+        "z": "c1ef9ea0d4b85310",
+        "mydb": "5b98b37fd277b5a0",
+        "name": "ENERGIA_DB",
+        "x": 700,
+        "y": 1120,
+        "wires": [
+            [
+                "6e7feba79cac9556"
+            ]
+        ]
+    },
+    {
+        "id": "1007d0df391be36f",
+        "type": "function",
+        "z": "c1ef9ea0d4b85310",
+        "name": "Select ultimi dati caricati",
+        "func": "let q;\n\nq =`SELECT  id, \n                DATE_FORMAT(DATA, '%Y%m%d') data,\n                ora,\n                periodo,\n                prezzo \n                FROM mgpprezzi_15 \n                ORDER BY DATA desc, PERIODO desc limit 96`;\n\nmsg.topic=q;\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 1120,
+        "wires": [
+            [
+                "4dddab2428e05893"
+            ]
+        ]
+    },
+    {
+        "id": "6e7feba79cac9556",
+        "type": "function",
+        "z": "c1ef9ea0d4b85310",
+        "name": "function 5",
+        "func": "let array = msg.payload;\n\n\n// aggiungo il numero progessivo per ogni riga\n\nconst nuovoArray = array.map((obj, index) => ({\n    progr: index + 1,  // +1 se vuoi partire da 1 invece che da 0\n    ...obj\n}));\n\nmsg.payload=nuovoArray;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 1100,
+        "wires": [
+            [
+                "f369695631e9b46e"
+            ]
+        ]
+    },
+    {
+        "id": "7d0c573808494004",
+        "type": "debug",
+        "z": "c1ef9ea0d4b85310",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "06a981ed3b2c811b",
+        "type": "ui-control",
+        "z": "c1ef9ea0d4b85310",
+        "name": "",
+        "ui": "a894e0685c489fa2",
+        "events": "all",
+        "x": 180,
+        "y": 1320,
+        "wires": [
+            [
+                "7d0c573808494004"
+            ]
+        ]
+    },
+    {
+        "id": "3d9ccfff63bc7d32",
+        "type": "ui-button",
+        "z": "c1ef9ea0d4b85310",
+        "group": "c9943ce4b6e834b6",
+        "name": "Carica Dati 60m",
+        "label": "Visualizza Dati",
+        "order": 1,
+        "width": "2",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 235,
+        "y": 1177,
+        "wires": [
+            [
+                "ab68fe6f7d7d9e0e"
+            ]
+        ]
+    },
+    {
+        "id": "ab68fe6f7d7d9e0e",
+        "type": "function",
+        "z": "c1ef9ea0d4b85310",
+        "name": "Select ultimi dati caricati",
+        "func": "let q;\n\nq =`SELECT  id, \n                DATE_FORMAT(DATA, '%Y%m%d') data,\n                ora,\n                \n                PUN\n                FROM mgpprezzi \n                ORDER BY DATA desc, ORA desc limit 96`;\n\nmsg.topic=q;\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 1180,
+        "wires": [
+            [
+                "bda527e65222f0d1"
+            ]
+        ]
+    },
+    {
+        "id": "bda527e65222f0d1",
+        "type": "mysql",
+        "z": "c1ef9ea0d4b85310",
+        "mydb": "5b98b37fd277b5a0",
+        "name": "ENERGIA_DB",
+        "x": 700,
+        "y": 1180,
+        "wires": [
+            [
+                "161eb963ebb724ba"
+            ]
+        ]
+    },
+    {
+        "id": "161eb963ebb724ba",
+        "type": "function",
+        "z": "c1ef9ea0d4b85310",
+        "name": "function 1",
+        "func": "let array = msg.payload;\n\n\n// aggiungo il numero progessivo per ogni riga\n\nconst nuovoArray = array.map((obj, index) => ({\n    progr: index + 1,  // +1 se vuoi partire da 1 invece che da 0\n    ...obj\n}));\n\nmsg.payload=nuovoArray;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 1180,
+        "wires": [
+            [
+                "3246ded748760707"
+            ]
+        ]
+    },
+    {
+        "id": "3246ded748760707",
+        "type": "ui-table",
+        "z": "c1ef9ea0d4b85310",
+        "group": "c9943ce4b6e834b6",
+        "name": "Table 60m",
+        "label": "",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "maxrows": "20",
+        "passthru": false,
+        "autocols": true,
+        "showSearch": false,
+        "deselect": true,
+        "selectionType": "none",
+        "columns": [],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "className": "",
+        "x": 1070,
+        "y": 1180,
+        "wires": [
+            []
+        ]
+    }
+]
